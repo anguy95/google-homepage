@@ -1,15 +1,16 @@
+body {
+    margin: 0; 
+    padding: 0; 
+}
 nav {
-    float: right;
-    
-    
+    float: right;    
     ol {
         position: fixed;
-        margin-top: 13px; 
+        margin-top: 21px; 
         height: 30px;
         width: 301px;
         right: -11px; 
         padding: 0 30px 0 30px; 
-        
         
         li {
             list-style-type: none;
@@ -20,6 +21,10 @@ nav {
             color: #404040;
             padding: 0 11px 0 0;
             
+            .menu:hover{
+                background-color: black;
+            }
+               
             .menu {
                 position: absolute;
                 right: 130px; 
@@ -28,6 +33,10 @@ nav {
                 background-position: -132px -38px;
                 width: 30px;
                 height: 30px;
+            }
+                
+            .bell:hover{
+                background-color: black;
             }
             .bell {
                 position: absolute; 
@@ -51,9 +60,55 @@ nav {
                 border-radius: 100%;
             }
         }
-        
          .andrew {
                 color: #737373;
-            }
+        }
     }
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    height: 39px; 
+    background-color: #F2F2F2;
+    border: 1px solid #E4E4E4; 
+    clear: both; 
+    
+    
+    ul {
+        position: fixed;
+        list-style-type: none;
+    }
+    
+    ul li a {
+        text-decoration: none;   
+        font-family: arial, sans-serif;
+        color: #666666; 
+        font-weight: 100; 
+        font-size: small;
+    }
+    
+    .left_info li{
+        position: absolute
+        float: left;   
+        display: inline;
+        margin: 0; 
+        padding-left: 27px;
+        width: 64px; 
+        height: 40px; 
+        
+    }
+    
+    .right_info li{
+        position: absolute;
+        float: right;
+        display: inline;
+        vertical-align: middle;
+        padding-left: 27px;
+        width: 64px; 
+        height: 40px;
+    }
+    
 }
