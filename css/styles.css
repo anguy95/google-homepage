@@ -1,2 +1,55 @@
+/* line 1, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+nav {
+  float: right; }
+  /* line 5, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+  nav ol {
+    position: fixed;
+    margin-top: 13px;
+    height: 30px;
+    width: 301px;
+    right: -11px;
+    padding: 0 30px 0 30px; }
+    /* line 14, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+    nav ol li {
+      list-style-type: none;
+      display: inline-block;
+      vertical-align: center;
+      font-family: arial, sans-serif;
+      font-size: 13px;
+      color: #404040;
+      padding: 0 11px 0 0; }
+      /* line 23, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+      nav ol li .menu {
+        position: absolute;
+        right: 130px;
+        top: -6px;
+        background-image: url("../assets/icon.png");
+        background-position: -132px -38px;
+        width: 30px;
+        height: 30px; }
+      /* line 32, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+      nav ol li .bell {
+        position: absolute;
+        right: 85px;
+        top: -5px;
+        background-image: url("../assets/icon.png");
+        background-position: -194px -21px;
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+        background-color: #727272;
+        border-radius: 100%; }
+      /* line 44, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+      nav ol li .icon {
+        position: absolute;
+        right: 40px;
+        top: -8px;
+        background-image: url("../assets/Andrew_HEX_icon.jpg");
+        width: 32px;
+        height: 32px;
+        border-radius: 100%; }
+    /* line 55, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+    nav ol .andrew {
+      color: #737373; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,59 @@
+nav {
+    float: right;
+    
+    
+    ol {
+        position: fixed;
+        margin-top: 13px; 
+        height: 30px;
+        width: 301px;
+        right: -11px; 
+        padding: 0 30px 0 30px; 
+        
+        
+        li {
+            list-style-type: none;
+            display: inline-block;
+            vertical-align: center;
+            font-family: arial, sans-serif;
+            font-size: 13px;
+            color: #404040;
+            padding: 0 11px 0 0;
+            
+            .menu {
+                position: absolute;
+                right: 130px; 
+                top: -6px;
+                background-image: url("../assets/icon.png");
+                background-position: -132px -38px;
+                width: 30px;
+                height: 30px;
+            }
+            .bell {
+                position: absolute; 
+                right: 85px; 
+                top: -5px;
+                background-image: url("../assets/icon.png");
+                background-position: -194px -21px;
+                width: 20px;
+                height: 20px;
+                margin: 5px;
+                background-color: #727272;
+                border-radius: 100%;
+            }
+            .icon {
+                position: absolute;
+                right: 40px;
+                top: -8px; 
+                background-image: url("../assets/Andrew_HEX_icon.jpg");
+                width: 32px;
+                height: 32px;
+                border-radius: 100%;
+            }
+        }
+        
+         .andrew {
+                color: #737373;
+            }
+    }
+}
