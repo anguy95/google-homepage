@@ -68,7 +68,7 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -51px;
+  margin-top: -37px;
   margin-left: -282.5px; }
 
 .search form input {
@@ -132,4 +132,4 @@ footer {
     width: 64px;
     height: 40px; }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
