@@ -64,18 +64,56 @@ nav {
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  background-color: aqua; }
+  height: 100%; }
 
-/* line 74, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
-.search {
+/* line 73, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+.logo {
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50%; }
+  top: 24%;
+  left: 585px;
+  width: 269px;
+  height: 95px; }
+
+/* line 81, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+.search {
+  width: 100%;
+  position: absolute;
+  left: 218px;
+  top: 39%; }
+
+/* line 88, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+.search form input {
+  background: url("../assets/mic.gif") no-repeat;
+  background-size: 15px 19px;
+  background-position: 99% 4px;
+  border: 1px solid #C0C0C0;
+  width: 565px;
+  height: 25px; }
+
+/* line 97, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+.search form button {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: #444;
+  border-radius: 3px;
+  border: 1px solid #D8D8D8;
+  background-color: #f5f5f5;
+  margin-left: 100%; }
+
+/* line 107, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+#search_button {
+  margin: 16px 8px 0 8px;
+  width: 95px;
+  height: 29px; }
+
+/* line 113, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+#lucky {
+  margin: 16px 8px 0 8px;
+  width: 109px;
+  height: 29px; }
 
 /********************************* FOOTER *********************************************/
-/* line 83, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+/* line 120, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
 footer {
   position: fixed;
   bottom: 0px;
@@ -83,17 +121,17 @@ footer {
   height: 39px;
   background-color: #F2F2F2;
   border: 1px solid #E4E4E4; }
-  /* line 92, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+  /* line 129, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
   footer ul {
     list-style-type: none; }
-  /* line 95, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+  /* line 132, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
   footer ul li a {
     text-decoration: none;
     font-family: arial, sans-serif;
     color: #666666;
     font-weight: 100;
     font-size: small; }
-  /* line 103, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+  /* line 140, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
   footer .left_info li {
     position: relative;
     float: left;
@@ -102,7 +140,7 @@ footer {
     padding-left: 27px;
     width: 64px;
     height: 40px; }
-  /* line 114, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
+  /* line 151, /Users/anguy95/Dropbox/Random_Work/OdinProject/google-homepage/css/styles.scss */
   footer .right_info li {
     position: relative;
     float: right;
